@@ -1,11 +1,5 @@
 {
   "buildCommand": "yarn build",
   "outputDirectory": "dist",
-  "framework": "vite",
-  "builds": [
-    {
-      "src": "dist/**",
-      "use": "@vercel/static"
-    }
-  ]
+  "framework": "vite"
 }
