@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vp dev",
-    "build": "tsc && vp build",
-    "build:analyze": "vp build --mode analyze",
+    "dev": "node init && vp dev",
+    "build": "node init && tsc && vp build",
+    "build:analyze": "node init && vp build --mode analyze",
     "preview": "vp preview",
     "typecheck": "tsc --noEmit",
     "lint": "npm run oxlint && npm run stylelint",
